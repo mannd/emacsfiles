@@ -134,6 +134,7 @@
 (defun my-c-mode-common-hook ()
   (setq c-basic-offset 4)
   (setq c-indent-level 4)
+  (setq indent-tabs-mode nil)
   ;; avoid namespace indentation
   (c-set-offset 'innamespace 0)
 )
