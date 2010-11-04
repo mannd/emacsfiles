@@ -152,6 +152,7 @@
      (color-theme-initialize)
      (load "~/.emacs.d/zenburn.el")
      (load "~/.emacs.d/color-theme-twilight.el")
+     (load "~/.emacs.d/color-theme-tangotango.el")
      (color-theme-twilight))))
 
 ;; weblogger
