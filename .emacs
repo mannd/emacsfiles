@@ -170,4 +170,6 @@
 ;; save minibuffer history
 (savehist-mode 1)
 
-
+;; unset C-mouse-1 which opens buffer menu at odd times
+;; on my Lenovo X220 because my thumb brushes the mousepad
+(global-unset-key [C-down-mouse-1])
